@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM ubuntu-latest
+FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
 
