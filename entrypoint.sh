@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Hello World"
+echo "Building your project"
+
+./build.sh
