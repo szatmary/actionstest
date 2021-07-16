@@ -1,1 +1,1 @@
-g++ main.cpp -o main
+gcc main.cpp -o main
