@@ -1,3 +1,4 @@
+set -e
 if test -f "main"; then
     echo "main exists."
     ./main | node test.js
