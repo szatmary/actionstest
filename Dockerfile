@@ -2,6 +2,7 @@
 FROM ubuntu:latest
 
 RUN apt update && apt upgrade -y
+RUN apt install nodejs gcc
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
