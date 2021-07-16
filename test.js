@@ -5,7 +5,7 @@ const expectedOutput = `Hello World
 `;
 
 if (applicationOutput === expectedOutput) {
-  console.log("SUCESS");
+  console.log("SUCCESS");
   process.exit();
 }
 console.log("FAIL");
